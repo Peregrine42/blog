@@ -1,4 +1,4 @@
-TestBlog::Application.routes.draw do
+Blog::Application.routes.draw do
 
   resources :posts do
     resources :comments
