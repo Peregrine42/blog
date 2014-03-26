@@ -1,3 +1,6 @@
-body {
-  padding-top: 40px;
+@navbar-margin: 40px;
+
+body { padding-top: @navbar-margin; }
+@media screen and (max-width: 980px) {
+  body { padding-top: 0px; }
 }
